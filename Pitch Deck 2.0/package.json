@@ -1,12 +1,15 @@
 {
-  "name": "siakad-mobile-presentation",
+  "name": "siakad-uidc-pitch-deck",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
+  "description": "Interactive pitch deck for SIAKAD UIDC digital transformation solution",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "lint": "echo 'No linting configured'",
+    "type-check": "tsc --noEmit"
   },
   "dependencies": {
     "react": "^19.2.3",
@@ -14,8 +17,25 @@
   },
   "devDependencies": {
     "@types/node": "^22.14.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
     "@vitejs/plugin-react": "^5.0.0",
     "typescript": "~5.8.2",
     "vite": "^6.2.0"
-  }
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=8.0.0"
+  },
+  "keywords": [
+    "pitch-deck",
+    "siakad",
+    "uidc",
+    "digital-transformation",
+    "react",
+    "vite",
+    "typescript"
+  ],
+  "author": "Airay Labs",
+  "license": "MIT"
 }

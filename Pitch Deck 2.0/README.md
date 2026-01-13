@@ -1,20 +1,88 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# SIAKAD UIDC - Interactive Pitch Deck
 
-# Run and deploy your AI Studio app
+Interactive pitch deck presentation for SIAKAD digital transformation solution targeting Universitas Islam Darussalam Ciamis (UIDC).
 
-This contains everything you need to run your app locally.
+## 🚀 Quick Start
 
-View your app in AI Studio: https://ai.studio/apps/drive/1X1jzm26VaZfI_1wQkWgrgQLVCPKM9itz
+### Development
+```bash
+npm install
+npm run dev
+```
 
-## Run Locally
+### Production Build
+```bash
+npm run build
+npm run preview
+```
 
-**Prerequisites:**  Node.js
+## 🌐 Deploy to Vercel
 
+### Option 1: Vercel CLI
+```bash
+npm i -g vercel
+vercel
+```
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+### Option 2: GitHub Integration
+1. Push to GitHub repository
+2. Connect repository to Vercel
+3. Set environment variables in Vercel dashboard
+
+## 🔧 Environment Variables
+
+Create a `.env.local` file:
+```env
+GEMINI_API_KEY=your_gemini_api_key_here
+```
+
+### Vercel Environment Variables
+Set these in your Vercel dashboard:
+- `GEMINI_API_KEY`: Your Gemini AI API key
+
+## 📱 Features
+
+- **Interactive Presentation**: Modern, mobile-responsive design
+- **AI-Powered**: Enhanced with Gemini AI capabilities
+- **Islamic Design**: Culturally appropriate for Islamic educational institutions
+- **Real-time Navigation**: Smooth slide transitions and navigation
+- **Professional Layout**: Optimized for business presentations
+
+## 🛠 Tech Stack
+
+- **React 19** - UI Framework
+- **TypeScript** - Type Safety
+- **Vite** - Build Tool
+- **Vercel** - Deployment Platform
+
+## 📊 Project Structure
+
+```
+Pitch Deck 2.0/
+├── components/          # React components
+├── public/             # Static assets
+├── src/               # Source code
+├── .env.example       # Environment variables template
+├── vercel.json        # Vercel configuration
+├── vite.config.ts     # Vite configuration
+└── package.json       # Dependencies and scripts
+```
+
+## 🎯 Target Audience
+
+**Universitas Islam Darussalam Ciamis (UIDC)**
+- University Leadership
+- IT & Administrative Teams
+- Board of Directors
+- Islamic Education Stakeholders
+
+## 📞 Contact
+
+**Airay Labs - Digital Transformation Consultants**
+- Email: info@siakad-solutions.com
+- WhatsApp: +62 811-2345-6789
+- Website: www.siakad-solutions.com
+
+---
+
+**Built with ❤️ for Islamic Education Digital Transformation**
