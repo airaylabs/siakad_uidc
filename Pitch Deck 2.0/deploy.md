@@ -50,19 +50,19 @@ vercel
 5. Configure build settings (auto-detected)
 6. Deploy
 
-## Step 4: Set Environment Variables
+## Step 4: Set Environment Variables (Optional)
 
 ### In Vercel Dashboard:
-1. Go to Project Settings
-2. Navigate to Environment Variables
-3. Add:
-   - `GEMINI_API_KEY`: Your Gemini AI API key (optional)
+1. Go to Project Settings → Environment Variables
+2. Add (if you want AI features):
+   - **Key**: `GEMINI_API_KEY`
+   - **Value**: Your Gemini AI API key
+   - **Environment**: Production, Preview, Development
 
-### Via Vercel CLI:
-```bash
-vercel env add GEMINI_API_KEY
-# Enter your API key when prompted
-```
+### Note:
+- The app will work without GEMINI_API_KEY (AI features will be disabled)
+- You can add the API key later if needed
+- Get API key from: https://makersuite.google.com/app/apikey
 
 ## Step 5: Custom Domain (Optional)
 1. In Vercel dashboard, go to Domains

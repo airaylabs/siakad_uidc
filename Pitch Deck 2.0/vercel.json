@@ -4,19 +4,6 @@
   "devCommand": "npm run dev",
   "installCommand": "npm install",
   "framework": "vite",
-  "env": {
-    "GEMINI_API_KEY": "@gemini-api-key"
-  },
-  "build": {
-    "env": {
-      "GEMINI_API_KEY": "@gemini-api-key"
-    }
-  },
-  "functions": {
-    "app/api/**/*.ts": {
-      "runtime": "nodejs18.x"
-    }
-  },
   "rewrites": [
     {
       "source": "/(.*)",
